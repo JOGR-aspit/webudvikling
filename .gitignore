@@ -1,0 +1,227 @@
+# ============================================
+# ASPIT Teaching Materials Repository .gitignore
+# ============================================
+# This file specifies intentionally untracked files that Git should ignore
+# Sections are organized by file type and purpose
+
+# ============================================
+# Operating System Files
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+.nfs*
+
+# ============================================
+# IDE and Editor Files
+# ============================================
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# JetBrains IDEs (IntelliJ, PhpStorm, WebStorm)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ============================================
+# Development Tools and Dependencies
+# ============================================
+
+# Node.js / npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.pnp
+.pnp.js
+
+# PHP Composer (used in W3.1)
+vendor/
+composer.lock
+composer.phar
+
+# WordPress (used in W3.2)
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backups/
+wp-content/mu-plugins/*/vendor/
+wp-content/plugins/*/vendor/
+wp-content/themes/*/vendor/
+
+# ============================================
+# Build Artifacts and Compiled Files
+# ============================================
+
+# Build directories
+dist/
+build/
+out/
+target/
+
+# Compiled and minified files
+*.min.js
+*.min.css
+*.min.map
+*.bundle.js
+*.bundle.css
+
+# Generated files
+*.generated.*
+*.cache
+
+# ============================================
+# Temporary Files and Backups
+# ============================================
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+
+# Temporary files
+*.tmp
+*.temp
+*.tempfile
+.cache/
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================================
+# Sensitive Information
+# ============================================
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+
+# Configuration with secrets
+config/secrets.*
+secrets.json
+credentials.json
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Database backups (if any)
+*.sql.gz
+*.sql.bz2
+database-backups/
+db-backups/
+
+# ============================================
+# Test and Coverage Files
+# ============================================
+
+# Coverage reports
+coverage/
+.nyc_output/
+.coverage/
+
+# Test outputs
+test-results/
+*.test.log
+
+# ============================================
+# Documentation Generated Files
+# ============================================
+
+# Generated documentation
+docs/_build/
+docs/.doctrees/
+site/
+
+# ============================================
+# Archive and Compressed Files
+# ============================================
+
+# Archives (keep the repo clean, not for distribution)
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# ============================================
+# Keep These Files Explicitly
+# ============================================
+
+# ! means "don't ignore this file even if it matches patterns above"
+
+# Keep example .env files for documentation
+!.env.example
+!.env.template
+
+# Keep important README files
+!README.md
+
+# ============================================
+# Notes
+# ============================================
+#
+# This .gitignore is designed for a teaching materials repository
+# that contains Markdown files, code examples, and documentation.
+#
+# If you need to track files that are currently ignored:
+# 1. Use `git add -f <filename>` to force-add a file
+# 2. Or remove the corresponding pattern from this file
+#
+# For more information about .gitignore:
+# https://git-scm.com/docs/gitignore
+# ============================================

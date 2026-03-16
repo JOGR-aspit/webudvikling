@@ -1,0 +1,30 @@
+{
+  "name": "Claude Code Secure Sandbox",
+  "image": "node:22-slim",
+  
+  // 1. Explicitly align the terminal and extension to the root user
+  "remoteUser": "root",
+  
+  // 2. Install Claude Code and global dependencies required by common MCPs
+  "postCreateCommand": "apt-get update && apt-get install -y git ripgrep curl python3 python3-pip && npm install -g @anthropic-ai/claude-code",
+  
+  "mounts": [
+    // 3a. Mount your GLM-4.7 base URL settings and enabled GUI plugins
+    "source=${localEnv:HOME}/.config/claude_docker_state/.claude/settings.json,target=/root/.claude/settings.json,type=bind",
+    
+    // 3b. Mount your Global UI state, internal flags, and MCP Servers
+    "source=${localEnv:HOME}/.config/claude_docker_state/.claude.json,target=/root/.claude.json,type=bind",
+    
+    // 3c. Mount the physical Marketplace & Plugin caches (GitHub clones)
+    "source=${localEnv:HOME}/.config/claude_docker_state/.claude/plugins,target=/root/.claude/plugins,type=bind"
+  ],
+  
+  // 4. Automatically install the VS Code GUI extension on boot
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "anthropic.claude-code"
+      ]
+    }
+  }
+}
