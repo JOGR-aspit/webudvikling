@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercise 6a: CSS Selectors (Full Guidance)</title>
+
+        <style>
+            /* CSS rules go here */
+
+            /* TASK 3: Element selector */
+            /* Style all h2 elements (by tag name) */
+            h2 {
+                color: #2c3e50;
+                font-size: 28px;
+                margin-bottom: 10px;
+            }
+
+            /* Element selector - style all paragraphs */
+            p {
+                color: #333;
+                font-size: 16px;
+                line-height: 1.6;
+            }
+
+            /* TASK 4: Class selector */
+            /* Style elements with class "card" */
+            /* Class selectors use .classname syntax */
+            .card {
+                background-color: white;
+                border: 1px solid #ddd;
+                padding: 20px;
+                margin-bottom: 20px;
+                border-radius: 5px;
+            }
+
+            /* Class selector - style elements with class "highlight" */
+            .highlight {
+                background-color: yellow;
+                color: black;
+                padding: 2px 5px;
+            }
+
+            /* TASK 5: ID selector */
+            /* Style unique element with id "main-header" */
+            /* ID selectors use #idname syntax */
+            /* IDs should be unique per page */
+            #main-header {
+                background-color: #2c3e50;
+                color: white;
+                padding: 20px;
+                text-align: center;
+            }
+
+            /* TASK 6: Selector chaining */
+            /* Style elements with BOTH classes: "button" AND "large" */
+            /* No space between class names = AND condition */
+            .button.large {
+                padding: 15px 30px;
+                font-size: 18px;
+            }
+
+            /* Selector chaining - style elements with "button" AND "primary" */
+            .button.primary {
+                background-color: #3498db;
+            }
+
+            /* Class selector - base button style */
+            .button {
+                display: inline-block;
+                background-color: #666;
+                color: white;
+                padding: 10px 20px;
+                text-decoration: none;
+                border-radius: 3px;
+            }
+
+            /* TASK 7: Descendant combinator */
+            /* Style paragraphs inside .card elements */
+            /* Space between selectors = descendant relationship */
+            .card p {
+                color: #555;
+            }
+
+            /* Descendant combinator - style links inside .card */
+            .card a {
+                color: #2c3e50;
+            }
+
+            /* Descendant combinator - style links inside .navigation */
+            .navigation a {
+                color: white;
+            }
+
+            /* Class selector - navigation container */
+            .navigation {
+                background-color: #1a252f;
+                padding: 15px;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- =======================================================
+             EXERCISE TASKS
+        Follow instructions below to complete this exercise:
+        ======================================================= -->
+
+        <!-- TASK 1: Add an HTML comment at the top -->
+        <!-- This page demonstrates CSS selector types -->
+
+        <!-- TASK 2: Create HTML structure with classes and IDs -->
+        <!-- Header with ID selector -->
+        <header id="main-header">
+            <h1 class="page-title">CSS Selectors Demo</h1>
+            <p class="subtitle">Learning to target elements precisely</p>
+        </header>
+
+        <!-- Navigation with descendant combinator -->
+        <nav class="navigation">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">About</a>
+            <a href="#" class="nav-link">Blog</a>
+            <a href="#" class="nav-link">Contact</a>
+        </nav>
+
+        <!-- Main content with various selectors -->
+        <main>
+            <!-- TASK 3: Element selector example -->
+            <p class="intro">
+                This paragraph is styled with an <strong>element selector</strong> (p { }).
+                All paragraphs share this style.
+            </p>
+
+            <!-- TASK 4: Class selector example -->
+            <section class="card">
+                <h2>Class Selector Example</h2>
+                <p>
+                    This card is styled with a <strong>class selector</strong> (.card { }).
+                    Any element with class="card" gets this style.
+                </p>
+                <p>
+                    Multiple elements can share the same class.
+                    This makes styles reusable!
+                </p>
+            </section>
+
+            <!-- TASK 5: ID selector example -->
+            <p>
+                The header above uses an <strong>ID selector</strong> (#main-header { }).
+                IDs should be unique - only one element per page has this ID.
+            </p>
+
+            <section class="card">
+                <h2>Selector Chaining Example</h2>
+                <p>
+                    Look at these buttons. They all have class="button":
+                </p>
+
+                <!-- TASK 6: Selector chaining examples -->
+                <a href="#" class="button">Regular Button</a>
+                <a href="#" class="button large">Large Button</a>
+                <a href="#" class="button large primary">Large Primary Button</a>
+
+                <p>
+                    The buttons use <strong>selector chaining</strong>:
+                </p>
+                <ul>
+                    <li>.button - base button style</li>
+                    <li>.button.large - large button (chained)</li>
+                    <li>.button.primary - primary button (chained)</li>
+                    <li>.button.large.primary - large AND primary (double chained)</li>
+                </ul>
+            </section>
+
+            <!-- TASK 7: Descendant combinator example -->
+            <section class="card">
+                <h2>Descendant Combinator Example</h2>
+                <p>
+                    These paragraphs are styled with a <strong>descendant combinator</strong> (.card p { }).
+                </p>
+                <p>
+                    This means: style paragraphs ONLY when they're inside .card elements.
+                    Paragraphs outside .card get the default p style.
+                </p>
+
+                <p class="highlight">
+                    This paragraph has an additional class="highlight".
+                    It gets both .card p styles AND .highlight styles.
+                </p>
+
+                <p>
+                    <a href="#">This link is styled with .card a { }</a> - descendant combinator.
+                </p>
+            </section>
+
+            <section class="card">
+                <h2>Summary of Selector Types</h2>
+                <p>
+                    Here's what we've demonstrated:
+                </p>
+                <ul>
+                    <li><strong>Element selector</strong>: p { } - styles all paragraphs</li>
+                    <li><strong>Class selector</strong>: .card { } - styles elements with class="card"</li>
+                    <li><strong>ID selector</strong>: #main-header { } - styles unique header</li>
+                    <li><strong>Selector chaining</strong>: .button.large { } - styles elements with both classes</li>
+                    <li><strong>Descendant combinator</strong>: .card p { } - styles paragraphs inside cards</li>
+                </ul>
+            </section>
+        </main>
+
+        <!-- =======================================================
+             EXERCISE COMPLETE!
+             Open index.html in your browser to see your work.
+
+             SUCCESS CRITERIA:
+             ✓ Element selector demonstrated (p, h2)
+             ✓ Class selector demonstrated (.card, .highlight, .button)
+             ✓ ID selector demonstrated (#main-header)
+             ✓ Selector chaining demonstrated (.button.large, .button.primary)
+             ✓ Descendant combinator demonstrated (.card p, .card a)
+             ✓ Visual distinction between selector types visible
+             ✓ CSS specificity shown (ID > class > element)
+        ======================================================= -->
+    </body>
+</html>
