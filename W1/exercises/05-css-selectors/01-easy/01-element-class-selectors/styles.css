@@ -1,0 +1,70 @@
+/*
+ * CSS Exercise: Element & Class Selectors
+ *
+ * In this exercise, YOU write both the selectors AND the declarations.
+ * The file is empty - you build the CSS rules from scratch!
+ *
+ * Remember:
+ * - Element selectors: just the tag name (h1, p, a)
+ * - Class selectors: dot prefix (.classname)
+ */
+
+/* ============================================
+   TASK 1: Style all h1 elements
+   ============================================
+
+   Write an ELEMENT selector (just "h1", no dots or hashes)
+
+   Add these declarations:
+   - color: navy;
+   - font-size: 32px;
+
+   Example structure:
+   h1 {
+       color: navy;
+       font-size: 32px;
+   }
+*/
+
+
+/* ============================================
+   TASK 2: Style all paragraphs
+   ============================================
+
+   Write an ELEMENT selector (just "p")
+
+   Add these declarations:
+   - color: #333333;
+   - line-height: 1.6;
+
+   This makes all paragraphs dark grey with better line spacing.
+*/
+
+
+/* ============================================
+   TASK 3: Style elements with class "highlight"
+   ============================================
+
+   Write a CLASS selector (with dot: .highlight)
+
+   Add these declarations:
+   - background-color: yellow;
+   - padding: 5px;
+
+   This will make the highlighted paragraph stand out with a yellow background.
+*/
+
+
+/* ============================================
+   TASK 4: Style elements with class "link"
+   ============================================
+
+   Write a CLASS selector (with dot: .link)
+
+   Add these declarations:
+   - color: blue;
+   - text-decoration: none;
+
+   This styles the link to be blue without an underline.
+*/
+

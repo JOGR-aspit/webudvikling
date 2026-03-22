@@ -1,0 +1,49 @@
+/*
+ * CSS Exercise: Styled Greeting
+ *
+ * Your task is to write CSS that styles this simple greeting page.
+ * Follow the tasks below, writing the CSS inside each selector's curly braces.
+ */
+
+/* ============================================
+   TASK 1: Make the main heading blue
+   ============================================
+
+   Inside the curly braces below, write:
+   - color: blue;
+
+   (Don't forget the semicolon at the end!)
+*/
+h1 {
+    /* WRITE YOUR CSS HERE */
+
+}
+
+
+/* ============================================
+   TASK 2: Make all paragraphs black
+   ============================================
+
+   Inside the curly braces below, write:
+   - color: black;
+*/
+p {
+    /* WRITE YOUR CSS HERE */
+
+}
+
+
+/* ============================================
+   TASK 3: Make paragraphs use 18px font size
+   ============================================
+
+   Add to the p selector above (or create a new p selector here):
+   - font-size: 18px;
+
+   HINT: You can add this to the same p selector from Task 2!
+   Just add it as a new line inside the same curly braces.
+*/
+p {
+    /* ADD font-size HERE */
+
+}

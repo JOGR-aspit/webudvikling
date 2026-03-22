@@ -1,0 +1,90 @@
+/*
+ * CSS Exercise: Styled Blog Preview
+ *
+ * Your task is to write CSS that styles this blog preview card.
+ * The selectors are already written for you.
+ * Fill in the CSS declarations inside each selector's curly braces.
+ *
+ * This exercise combines everything you've learned:
+ * - Element selectors (h1)
+ * - Class selectors (.date, .excerpt, .read-more)
+ * - Multiple declarations per selector
+ * - Hex color codes
+ * - Text properties (align, decoration)
+ * - Font properties (size, family)
+ */
+
+/* ============================================
+   TASKS 1-3: Style the blog title
+   ============================================
+
+   Add these declarations to the h1 selector:
+   - color: #2c3e50;      (dark blue using hex code)
+   - text-align: center;
+   - font-size: 28px;
+
+   Note: #2c3e50 is a dark blue. Hex codes let us be very precise about colors!
+*/
+h1 {
+    /* WRITE YOUR CSS HERE */
+
+}
+
+
+/* ============================================
+   TASKS 4-6: Style the date
+   ============================================
+
+   The ".date" selector targets the element with class="date"
+
+   Add these declarations:
+   - color: #666666;     (medium grey)
+   - font-size: 14px;    (smaller text)
+   - text-align: center;
+
+   Note: Dates are usually smaller and subtler than titles.
+*/
+.date {
+    /* WRITE YOUR CSS HERE */
+
+}
+
+
+/* ============================================
+   TASKS 7-9: Style the excerpt paragraph
+   ============================================
+
+   The ".excerpt" selector targets the element with class="excerpt"
+
+   Add these declarations:
+   - font-size: 16px;
+   - font-family: Georgia, serif;
+   - color: #333333;
+
+   Note: Georgia is a serif font (has decorative strokes on letters).
+   "serif" is a fallback - if Georgia isn't installed, any serif font will be used.
+   #333333 is dark grey - softer than pure black for reading comfort.
+*/
+.excerpt {
+    /* WRITE YOUR CSS HERE */
+
+}
+
+
+/* ============================================
+   TASKS 10-11: Style the "Read more" link
+   ============================================
+
+   The ".read-more" selector targets the element with class="read-more"
+
+   Add these declarations:
+   - text-decoration: none;   (removes the underline)
+   - color: #3498db;          (bright blue)
+
+   Note: Links are underlined by default. "none" removes all text decorations.
+   #3498db is a bright, clickable blue color.
+*/
+.read-more {
+    /* WRITE YOUR CSS HERE */
+
+}

@@ -1,0 +1,57 @@
+/*
+ * CSS Exercise: Styled Profile Card
+ *
+ * Your task is to write CSS that styles this profile card.
+ * The selectors are already written for you.
+ * Fill in the CSS declarations inside each selector's curly braces.
+ */
+
+/* ============================================
+   TASK 1 & 2: Style the name heading
+   ============================================
+
+   Add these declarations inside the curly braces:
+   - color: navy;
+   - text-align: center;
+
+   Remember: Each declaration needs a semicolon at the end!
+*/
+h1 {
+    /* WRITE YOUR CSS HERE */
+
+}
+
+
+/* ============================================
+   TASK 3 & 4: Style the role text
+   ============================================
+
+   The ".role" selector targets any element with class="role"
+
+   Add these declarations:
+   - color: #666666;        (this is a grey color using hex code)
+   - font-style: italic;    (makes text slanted/italic)
+*/
+.role {
+    /* WRITE YOUR CSS HERE */
+
+}
+
+
+/* ============================================
+   TASK 5 & 6: Style the bio paragraph
+   ============================================
+
+   The ".bio" selector targets any element with class="bio"
+
+   Add these declarations:
+   - font-size: 16px;
+   - font-family: Arial, sans-serif;
+
+   Note: "sans-serif" is a fallback font. If Arial isn't installed,
+   the browser will use any sans-serif font available.
+*/
+.bio {
+    /* WRITE YOUR CSS HERE */
+
+}

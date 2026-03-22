@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Exercise - Descendant Combinators</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation with nested dropdown -->
+    <nav class="main-nav">
+        <!-- Direct navigation links -->
+        <a href="#">Home</a>
+        <a href="#">About</a>
+
+        <!-- Dropdown menu (nested inside main-nav) -->
+        <div class="dropdown">
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Blog post with nested footer -->
+    <article class="blog-post">
+        <!-- Article title -->
+        <h2>Article Title</h2>
+
+        <!-- Article content paragraphs -->
+        <p>First paragraph. This is some content inside the blog post.</p>
+        <p>Second paragraph. More content that demonstrates descendant selectors.</p>
+
+        <!-- Post footer (nested inside blog-post) -->
+        <footer class="post-footer">
+            <p>Posted on March 22, 2026</p>
+        </footer>
+    </article>
+
+    <!-- Sidebar with its own content -->
+    <aside class="sidebar">
+        <p>Sidebar text. This paragraph is inside the sidebar.</p>
+    </aside>
+</body>
+</html>

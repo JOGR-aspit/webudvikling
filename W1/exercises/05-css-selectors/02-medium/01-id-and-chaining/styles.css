@@ -1,0 +1,89 @@
+/*
+ * CSS Exercise: ID Selectors & Chaining
+ *
+ * In this exercise, you'll learn two new selector types:
+ *
+ * 1. ID SELECTORS - Use # prefix to target unique elements
+ *    Example: #main-header targets the element with id="main-header"
+ *
+ * 2. CHAINED SELECTORS - No space between classes
+ *    Example: .btn.large targets elements with BOTH classes
+ */
+
+/* ============================================
+   TASK 1: Style the main header (ID selector)
+   ============================================
+
+   Write an ID selector (with #: #main-header)
+
+   Add these declarations:
+   - background-color: #2c3e50;
+   - color: white;
+   - padding: 20px;
+
+   This styles the unique header element.
+*/
+
+
+/* ============================================
+   TASK 2: Style the footer (ID selector)
+   ============================================
+
+   Write an ID selector (with #: #footer)
+
+   Add these declarations:
+   - background-color: #666666;
+   - color: white;
+   - text-align: center;
+
+   This styles the unique footer element.
+*/
+
+
+/* ============================================
+   TASK 3: Style all buttons (class selector)
+   ============================================
+
+   Write a CLASS selector (with dot: .btn)
+
+   Add these declarations:
+   - background-color: green;
+   - color: white;
+   - padding: 10px 20px;
+
+   This is the "base" button style that ALL buttons get.
+*/
+
+
+/* ============================================
+   TASK 4: Style large buttons (chained selector)
+   ============================================
+
+   Write a CHAINED selector: .btn.large
+   (NO space between .btn and .large!)
+
+   Add these declarations:
+   - font-size: 20px;
+   - padding: 15px 30px;
+
+   This ONLY applies to buttons with BOTH classes.
+   The "Large" and "Large Primary" buttons will get this style.
+*/
+
+
+/* ============================================
+   TASK 5: Style primary buttons (chained selector)
+   ============================================
+
+   Write a CHAINED selector: .btn.primary
+   (NO space between .btn and .primary!)
+
+   Add these declarations:
+   - background-color: blue;
+
+   This ONLY applies to buttons with BOTH classes.
+   The "Primary" and "Large Primary" buttons will get this style.
+
+   Notice: "Large Primary" gets styles from .btn, .btn.large, AND .btn.primary!
+*/
+

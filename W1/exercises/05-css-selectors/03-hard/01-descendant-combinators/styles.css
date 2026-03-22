@@ -1,0 +1,111 @@
+/*
+ * CSS Exercise: Descendant Combinators
+ *
+ * In this exercise, you'll learn DESCENDANT COMBINATORS.
+ *
+ * What is a descendant combinator?
+ * - Uses a SPACE between selectors
+ * - Targets elements that are INSIDE (nested in) another element
+ *
+ * Example: .main-nav a
+ * - The SPACE means "inside"
+ * - This targets all <a> elements INSIDE elements with class="main-nav"
+ *
+ * Compare to chaining (.btn.large):
+ * - NO space means "AND" (element has both classes)
+ * - SPACE means "INSIDE" (element is nested inside parent)
+ */
+
+/* ============================================
+   TASK 1: Style ALL links inside .main-nav
+   ============================================
+
+   Write a descendant combinator: .main-nav a
+   (Notice the SPACE between .main-nav and a)
+
+   Add these declarations:
+   - color: white;
+   - text-decoration: none;
+
+   This targets ALL links that are inside the navigation,
+   including the dropdown links.
+*/
+
+
+/* ============================================
+   TASK 2: Style links inside .dropdown only
+   ============================================
+
+   Write a descendant combinator: .dropdown a
+   (The SPACE means "links INSIDE dropdown")
+
+   Add this declaration:
+   - color: lightblue;
+
+   This is MORE SPECIFIC than Task 1, so it overrides
+   the white color for dropdown links only.
+*/
+
+
+/* ============================================
+   TASK 3: Style paragraphs inside .blog-post
+   ============================================
+
+   Write a descendant combinator: .blog-post p
+   (Paragraphs INSIDE blog-post)
+
+   Add these declarations:
+   - color: #333333;
+   - line-height: 1.6;
+
+   This targets paragraphs inside the blog post,
+   but NOT paragraphs in the sidebar or post-footer.
+*/
+
+
+/* ============================================
+   TASK 4: Style the h2 inside .blog-post
+   ============================================
+
+   Write a descendant combinator: .blog-post h2
+   (h2 INSIDE blog-post)
+
+   Add this declaration:
+   - color: #2c3e50;
+
+   This makes the article title a dark blue color.
+*/
+
+
+/* ============================================
+   TASK 5: Style paragraphs inside .post-footer
+   ============================================
+
+   Write a descendant combinator: .post-footer p
+   (Paragraphs INSIDE post-footer)
+
+   Add these declarations:
+   - color: #666666;
+   - font-size: 14px;
+
+   Notice: This is even MORE specific than .blog-post p
+   because post-footer is INSIDE blog-post.
+   The post footer paragraph will be grey and smaller.
+*/
+
+
+/* ============================================
+   TASK 6: Style paragraphs inside .sidebar
+   ============================================
+
+   Write a descendant combinator: .sidebar p
+   (Paragraphs INSIDE sidebar)
+
+   Add these declarations:
+   - color: #555555;
+   - font-style: italic;
+
+   This targets sidebar paragraphs specifically,
+   leaving blog post paragraphs unaffected.
+*/
+
