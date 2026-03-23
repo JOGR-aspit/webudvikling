@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise: Div Layout</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--
+        CONTAINER DIV
+        This is the main wrapper that centers content on the page.
+        It uses auto margins to center horizontally.
+        Block element: starts on new line, takes full width (before max-width)
+    -->
+    <div class="container">
+
+        <!--
+            CARD DIV
+            This is the main content card.
+            It contains all the profile information.
+            Block element: stacks below container's padding
+        -->
+        <div class="card">
+
+            <!--
+                CARD HEADER DIV
+                Contains the profile name and title.
+                Uses border-bottom to create a visual divider.
+                Block element: creates a section
+            -->
+            <div class="card-header">
+                <h2 class="profile-name">John Smith</h2>
+                <p class="profile-title">Web Developer</p>
+            </div><!-- End of card-header -->
+
+            <!--
+                CARD CONTENT DIV
+                Contains the main bio text.
+                Block element: creates the main content section
+            -->
+            <div class="card-content">
+                <p>
+                    John is a passionate web developer with over 5 years of
+                    experience creating beautiful and functional websites.
+                    He specializes in front-end development and loves turning
+                    designs into interactive experiences.
+                </p>
+            </div><!-- End of card-content -->
+
+            <!--
+                TAGS DIV
+                Contains skill tags.
+                Block element: creates a section for tags
+            -->
+            <div class="card-tags">
+                <!--
+                    SPAN TAGS
+                    These are inline elements made inline-block.
+                    They sit side by side and accept padding.
+                -->
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+            </div><!-- End of card-tags -->
+
+        </div><!-- End of card -->
+
+    </div><!-- End of container -->
+
+</body>
+</html>

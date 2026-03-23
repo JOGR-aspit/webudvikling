@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise: Inline-Block Navigation</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--
+        PAGE HEADER
+        A block element containing the site title.
+        Uses a dark background to stand out.
+    -->
+    <header class="page-header">
+        <h1>My Awesome Website</h1>
+    </header>
+
+    <!--
+        NAVIGATION
+        A block element containing the navigation menu.
+        The menu uses an unordered list with inline-block items.
+    -->
+    <nav class="main-nav">
+        <!--
+            NAVIGATION MENU (ul)
+            This is a block element by default.
+            List items inside will be made inline-block.
+        -->
+        <ul class="nav-menu">
+            <!--
+                LIST ITEMS (li)
+                Block elements by default, will be styled inline-block.
+                This makes them sit side by side.
+            -->
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--
+        MAIN CONTENT CONTAINER
+        A block element that centers content on the page.
+        Uses auto margins for centering.
+    -->
+    <main class="container">
+
+        <!--
+            ARTICLE
+            A semantic block element for the main content.
+        -->
+        <article>
+            <h2>Welcome to My Website</h2>
+
+            <p>
+                This is a complete page layout demonstrating how block and
+                inline-block elements work together. The navigation bar above
+                uses <code>display: inline-block</code> to create horizontal
+                menu items that accept padding.
+            </p>
+
+            <p>
+                Block elements like this container stack vertically and take
+                full width. They're perfect for creating page sections like
+                the header, navigation, main content, and footer.
+            </p>
+
+            <h3>What You'll Learn</h3>
+
+            <p>
+                By completing this exercise, you'll understand how to:
+            </p>
+
+            <ul>
+                <li>Create horizontal navigation using inline-block</li>
+                <li>Style links with padding for larger click areas</li>
+                <li>Build a complete page layout with multiple sections</li>
+                <li>Center content using auto margins</li>
+            </ul>
+
+            <h3>The Power of Inline-Block</h3>
+
+            <p>
+                Inline-block combines the best of both worlds: elements stay
+                on the same line like inline elements, but they accept width,
+                height, and padding like block elements.
+            </p>
+
+            <p>
+                This makes inline-block perfect for navigation menus, button
+                groups, and any situation where you need elements side by side
+                with control over their sizing.
+            </p>
+        </article>
+
+    </main><!-- End of container -->
+
+    <!--
+        PAGE FOOTER
+        A block element at the bottom of the page.
+        Uses a dark background to match the header.
+    -->
+    <footer class="page-footer">
+        <p>&copy; 2024 My Awesome Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

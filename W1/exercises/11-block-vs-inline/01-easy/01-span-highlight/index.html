@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise: Span Highlight</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--
+        ARTICLE CONTAINER
+        This article demonstrates using span elements to style
+        inline text. The spans are already in the HTML - your
+        job is to write CSS to style them.
+    -->
+    <article>
+
+        <!--
+            HEADING
+            A block element (h1) - starts on its own line
+        -->
+        <h1>Understanding Inline Elements</h1>
+
+        <!--
+            BYLINE
+            The author name uses a span with class "author-name"
+            Notice how it stays on the same line as the other text
+        -->
+        <p class="byline">
+            By <span class="author-name">Jane Developer</span> • March 2024
+        </p>
+
+        <!--
+            PARAGRAPH 1
+            Contains spans with class "highlight" (yellow background)
+            These spans highlight important phrases
+        -->
+        <p>
+            Inline elements are <span class="highlight">fundamental to web
+            development</span>. They allow you to style specific parts of
+            text without breaking the flow of content.
+        </p>
+
+        <!--
+            PARAGRAPH 2
+            Contains a span with class "keyword" (red, bold)
+            Keywords are important technical terms
+        -->
+        <p>
+            The <span class="keyword">span</span> element is the most common
+            inline container. It has no default styling of its own.
+        </p>
+
+        <!--
+            PARAGRAPH 3
+            Contains both highlight and keyword spans
+            Notice how multiple span classes can be used together
+        -->
+        <p>
+            Unlike block elements, <span class="highlight">inline elements</span>
+            stay on the <span class="keyword">same line</span> and only take the
+            <span class="keyword">width</span> they need.
+        </p>
+
+        <!--
+            PARAGRAPH 4
+            Shows how spans can appear anywhere in text
+        -->
+        <p>
+            You can use spans to <span class="highlight">emphasize important
+            information</span>, highlight <span class="keyword">key terms</span>,
+            or style specific words like <span class="author-name">names</span>
+            differently from the rest of the text.
+        </p>
+
+    </article><!-- End of article -->
+
+</body>
+</html>

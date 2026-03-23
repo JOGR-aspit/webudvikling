@@ -1,0 +1,109 @@
+/*
+ * Exercise: Div Layout
+ *
+ * Your task: Style the div containers to create a card layout.
+ * Follow the tasks in README.md
+ *
+ * Remember:
+ * - div is a block element (starts on new line, full width)
+ * - Use auto margins to center: margin: 0 auto;
+ * - inline-block lets elements sit side by side with padding
+ */
+
+/* ========================================
+   BASE STYLES (already done for you)
+   ======================================== */
+
+/* Use border-box for predictable sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-name {
+    margin: 0 0 5px 0;
+    color: #2c3e50;
+}
+
+.profile-title {
+    margin: 0;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}
+
+.card-content p {
+    margin: 0;
+}
+
+.card-tags {
+    padding-top: 5px;
+}
+
+
+/* ========================================
+   TASK 2: Style the .container div
+   Add:
+   - max-width: 400px;
+   - margin: 40px auto;
+   - padding: 20px;
+   - background-color: #f5f5f5;
+   ======================================== */
+
+
+
+
+/* ========================================
+   TASK 3: Style the .card div
+   Add:
+   - background-color: #ffffff;
+   - padding: 20px;
+   - border: 1px solid #dddddd;
+   - border-radius: 8px;
+   - margin-bottom: 20px;
+   ======================================== */
+
+
+
+
+/* ========================================
+   TASK 4: Style the .card-header div
+   Add:
+   - padding-bottom: 15px;
+   - margin-bottom: 15px;
+   - border-bottom: 1px solid #eeeeee;
+   ======================================== */
+
+
+
+
+/* ========================================
+   TASK 5: Style the .card-content div
+   Add:
+   - line-height: 1.6;
+   - margin-bottom: 15px;
+   ======================================== */
+
+
+
+
+/* ========================================
+   TASK 6: Style the .tag spans
+   Add:
+   - display: inline-block;
+   - padding: 5px 10px;
+   - margin-right: 8px;
+   - margin-bottom: 8px;
+   - background-color: #e8f4f8;
+   - border-radius: 4px;
+   - font-size: 0.85rem;
+   ======================================== */
+
