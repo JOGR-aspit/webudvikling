@@ -1,0 +1,137 @@
+/*
+ * Exercise: Centered Layout
+ *
+ * Your task: Write all the CSS yourself following the tasks in README.md
+ *
+ * You will learn:
+ * - Using auto margins to center elements
+ * - Combining padding, border, and margin
+ * - Creating a complete page layout
+ * - Using box-sizing globally
+ *
+ * Remember:
+ * - margin: 0 auto; centers elements horizontally
+ * - margin creates space OUTSIDE the border
+ * - padding creates space INSIDE the border
+ * - box-sizing: border-box makes sizing predictable
+ */
+
+/* ========================================
+   TASK 2: Set box-sizing globally
+   Selector: *, *::before, *::after
+   Declaration: box-sizing: border-box;
+   ======================================== */
+
+
+
+
+/* ========================================
+   TASK 3: Style the page body
+   Selector: body
+   Declarations:
+   - margin: 0;
+   - padding: 0;
+   - font-family: Arial, sans-serif;
+   - background-color: #f5f5f5;
+   ======================================== */
+
+
+
+
+/* ========================================
+   TASK 4: Center the main container
+   Selector: .container
+   Declarations:
+   - width: 90%;
+   - max-width: 800px;
+   - margin: 0 auto;    <-- This centers it!
+   - padding: 20px;
+   ======================================== */
+
+
+
+
+/* ========================================
+   TASKS 5 & 6: Style the header
+   Selector: .header
+   Declarations:
+   - background-color: #2c3e50;
+   - color: #ffffff;
+   - padding: 20px;
+   - margin-bottom: 30px;
+   - text-align: center;
+
+   Selector: .header h1
+   Declarations:
+   - margin: 0;
+   - font-size: 1.75rem;
+   ======================================== */
+
+
+
+
+/* ========================================
+   TASKS 7, 8 & 9: Style the cards
+   Selector: .card
+   Declarations:
+   - background-color: #ffffff;
+   - padding: 20px;
+   - border: 1px solid #dddddd;
+   - margin-bottom: 20px;
+   - border-radius: 4px;
+
+   Selector: .card-title
+   Declarations:
+   - color: #2c3e50;
+   - font-size: 1.25rem;
+   - margin: 0 0 10px 0;
+
+   Selector: .card-content
+   Declarations:
+   - color: #666666;
+   - line-height: 1.6;
+   - margin: 0;
+   ======================================== */
+
+
+
+
+/* ========================================
+   TASK 10: Create a featured card variant
+   Selector: .card.featured (NO space between!)
+   Declarations:
+   - border-left: 4px solid #27ae60;
+   - background-color: #f0fff4;
+   ======================================== */
+
+
+
+
+/* ========================================
+   TASKS 11 & 12: Style the footer
+   Selector: .footer
+   Declarations:
+   - background-color: #2c3e50;
+   - color: #ffffff;
+   - padding: 15px 20px;
+   - text-align: center;
+   - margin-top: 30px;
+
+   Selector: .footer p
+   Declarations:
+   - margin: 0;
+   - font-size: 0.875rem;
+   ======================================== */
+
+
+
+
+/*
+ * BONUS: Add any additional styles you think
+ * would make the page look better!
+ *
+ * Ideas:
+ * - Add hover effects to cards
+ * - Add transitions for smooth animations
+ * - Add more visual separation between sections
+ */

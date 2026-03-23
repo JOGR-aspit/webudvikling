@@ -1,0 +1,49 @@
+/*
+ * Exercise: Padding Basics
+ *
+ * Your task: Add padding declarations inside each selector.
+ * Follow the tasks in README.md
+ *
+ * Remember:
+ * - padding: 20px;           = 20px on all sides
+ * - padding: 10px 20px;      = 10px top/bottom, 20px left/right
+ * - padding: 5px 10px 15px 20px;  = top, right, bottom, left
+ */
+
+/* ========================================
+   TASK 2: Style the info box container
+   Add:
+   - background-color: #e8f4f8;
+   - padding: 20px;
+   ======================================== */
+.info-box {
+    /* Write your declarations here */
+
+
+}
+
+
+/* ========================================
+   TASK 3: Style the heading
+   Add:
+   - padding: 10px 15px;
+   - margin: 0;
+   ======================================== */
+.info-box h2 {
+    /* Write your declarations here */
+
+
+}
+
+
+/* ========================================
+   TASK 4: Style the paragraph
+   Add:
+   - padding: 15px;
+   - background-color: #ffffff;
+   ======================================== */
+.info-box p {
+    /* Write your declarations here */
+
+
+}

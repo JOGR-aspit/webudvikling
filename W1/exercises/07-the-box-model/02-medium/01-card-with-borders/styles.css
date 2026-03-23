@@ -1,0 +1,80 @@
+/*
+ * Exercise: Card with Borders
+ *
+ * Your task: Write all the CSS yourself following the tasks in README.md
+ *
+ * You will learn:
+ * - Using box-sizing: border-box
+ * - Border shorthand (width, style, color)
+ * - Individual side borders (border-left, border-bottom)
+ * - Chained selectors (.card.featured)
+ */
+
+/* ========================================
+   TASK 2: Set box-sizing for all elements
+   Selector: *
+   Declaration: box-sizing: border-box;
+   ======================================== */
+
+
+
+
+/* ========================================
+   TASK 3: Style the card container
+   Selector: .card
+   Declarations:
+   - background-color: #ffffff;
+   - padding: 20px;
+   - border: 1px solid #cccccc;
+   - margin: 20px;
+   - max-width: 400px;
+   ======================================== */
+
+
+
+
+/* ========================================
+   TASKS 4 & 5: Style the card title
+   Selector: .card-title
+   Declarations:
+   - font-size: 1.5rem;
+   - color: #2c3e50;
+   - padding-bottom: 10px;
+   - margin: 0;
+   - border-bottom: 2px solid #3498db;
+   ======================================== */
+
+
+
+
+/* ========================================
+   TASK 6: Style the card content
+   Selector: .card-content
+   Declarations:
+   - padding-top: 15px;
+   - color: #333333;
+   - line-height: 1.6;
+   ======================================== */
+
+
+
+
+/* ========================================
+   TASK 7: Create a featured card variant
+   Selector: .card.featured (no space!)
+   Declarations:
+   - border-left: 4px solid #e74c3c;
+   - background-color: #fff5f5;
+
+   IMPORTANT: There must be NO space between
+   .card and .featured - this targets elements
+   with BOTH classes.
+   ======================================== */
+
+
+
+
+/*
+ * BONUS: Add any additional styles you think
+ * would make the cards look better!
+ */

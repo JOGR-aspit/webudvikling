@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise: Centered Layout</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--
+        HEADER
+        The top section of the page with the site title.
+        You will style this with a dark background and centered text.
+    -->
+    <header class="header">
+        <h1>My Website</h1>
+    </header>
+
+    <!--
+        MAIN CONTAINER
+        This container holds all the main content.
+        You will center this using auto margins.
+        The 90% width and 800px max-width make it responsive.
+    -->
+    <main class="container">
+
+        <!--
+            CARD 1: Introduction
+            A regular card with white background and gray border.
+        -->
+        <article class="card">
+            <h2 class="card-title">Welcome to My Website</h2>
+            <div class="card-content">
+                <p>
+                    This is the first card. It demonstrates how padding,
+                    border, and margin work together to create a
+                    well-spaced, readable content area.
+                </p>
+            </div>
+        </article>
+
+        <!--
+            CARD 2: Featured Card
+            This card has BOTH classes: "card" and "featured"
+            It will receive special styling with a green accent border.
+            class="card featured" means it matches both .card and .featured
+        -->
+        <article class="card featured">
+            <h2 class="card-title">Featured: Getting Started</h2>
+            <div class="card-content">
+                <p>
+                    This card stands out with a green left border and a
+                    light green background. Use this style for important
+                    announcements or highlighted content.
+                </p>
+            </div>
+        </article>
+
+        <!--
+            CARD 3: Another Regular Card
+            Same styling as Card 1, demonstrating consistency.
+        -->
+        <article class="card">
+            <h2 class="card-title">More Information</h2>
+            <div class="card-content">
+                <p>
+                    This is another regular card. Notice how all regular
+                    cards look the same? That's the power of CSS classes!
+                    One set of styles, multiple elements.
+                </p>
+            </div>
+        </article>
+
+    </main><!-- End of container -->
+
+    <!--
+        FOOTER
+        The bottom section of the page.
+        You will style this similar to the header but with smaller text.
+    -->
+    <footer class="footer">
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

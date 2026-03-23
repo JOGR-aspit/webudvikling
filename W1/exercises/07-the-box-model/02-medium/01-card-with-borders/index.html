@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise: Card with Borders</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--
+        PAGE CONTAINER
+        A simple wrapper to hold our cards.
+    -->
+    <div class="page">
+
+        <!--
+            REGULAR CARD
+            A basic card with border and padding.
+            You will style this with the .card class.
+        -->
+        <div class="card">
+            <h2 class="card-title">Getting Started with CSS</h2>
+            <div class="card-content">
+                <p>
+                    This card has a simple border around it. The padding
+                    creates space between the text and the border, making
+                    the content easier to read.
+                </p>
+                <p>
+                    Notice the blue line under the title? That's a bottom
+                    border added specifically to the title area.
+                </p>
+            </div>
+        </div><!-- End of regular card -->
+
+        <!--
+            FEATURED CARD
+            This card has BOTH classes: "card" and "featured"
+            It will get all .card styles PLUS special .card.featured styles
+            Look at the class attribute: class="card featured"
+        -->
+        <div class="card featured">
+            <h2 class="card-title">Featured: Pro Tips</h2>
+            <div class="card-content">
+                <p>
+                    This card has a red accent border on the left side and
+                    a light red background. It stands out from the regular
+                    cards!
+                </p>
+                <p>
+                    To style this card differently, you'll use a chained
+                    selector: <code>.card.featured</code> (no space between!).
+                </p>
+            </div>
+        </div><!-- End of featured card -->
+
+    </div><!-- End of page -->
+
+</body>
+</html>
