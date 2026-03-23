@@ -1,6 +1,6 @@
 # W1 Projects
 
-This folder contains larger, practical projects for W1 (Introduction to Web Development). Projects are designed to take approximately 4-6 hours each and synthesize multiple concepts from the curriculum.
+This folder contains practical projects for W1 (Introduction to Web Development). Projects synthesize multiple concepts from the curriculum and are designed for students who work at approximately 50-60% of typical beginner speed.
 
 ## Project List
 
@@ -23,6 +23,28 @@ This folder contains larger, practical projects for W1 (Introduction to Web Deve
 - Articles 02-06 (Basic HTML through Semantic Elements)
 
 **Estimated Time**: 4-6 hours
+
+**Difficulty**: Beginner
+
+### Project 2: Travel Guide
+
+**Folder**: `project-02-travel-guide/`
+
+**Description**: Create a single-page travel guide for a destination of your choice. Learn to organize information using sections, lists, and images while building a practical reference page.
+
+**Topics Covered**:
+- HTML document structure
+- Semantic HTML elements (header, main, section, footer)
+- Heading hierarchy
+- Ordered and unordered lists
+- Images with descriptive alt text
+- External links
+- Content organization
+
+**Prerequisites**:
+- Articles 02-06 (Basic HTML through Semantic Elements)
+
+**Estimated Time**: 2-3 hours
 
 **Difficulty**: Beginner
 
